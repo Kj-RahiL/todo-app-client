@@ -3,6 +3,9 @@ import Main from "../Layouts/Main";
 import Home from "../Pages/Home/Home";
 import AddTask from "../Pages/AddTask/AddTask";
 import Dashboard from "../Pages/Dashboard/Dashboard";
+import SignUp from "../Pages/Register/SignUp";
+import SignIn from "../Pages/Register/SignIn";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -15,14 +18,22 @@ const router = createBrowserRouter([
             },
             {
                 path: "addTask",
-                element: <AddTask></AddTask>
+                element: <PrivateRoute><AddTask></AddTask></PrivateRoute>
             },
             {
                 path: "dashboard",
-                element: <Dashboard></Dashboard>
+                element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>
             }
         ]
     },
+    {
+        path:'/signUp',
+        element:<SignUp></SignUp>
+    },
+    {
+        path:'/signIn',
+        element:<SignIn></SignIn>
+    }
 ]);
 
 export default router;
