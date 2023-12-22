@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Developers",
+      "description": "Ideal for software developers and programmers. Access developer resources, collaborate with like-minded individuals, and stay updated on the latest technologies and trends.",
+      "icon": "fa-code"
+    },
+    {
+      "title": "Corporate Professionals",
+      "description": "Tailored for corporate professionals and business leaders. Enhance productivity with business-oriented features, network with professionals from various industries, and stay informed about industry-specific news and insights.",
+      "icon": "fa-briefcase"
+    },
+    {
+      "title": "Bankers",
+      "description": "Designed to meet the needs of banking professionals. Gain exclusive financial insights, network within the finance sector, and access tools and information relevant to banking operations.",
+      "icon": "fa-university"
+    },
+    {
+      "title": "Doctors",
+      "description": "Tailored for medical professionals. Connect with experienced doctors, stay updated on medical advancements, and collaborate on healthcare solutions.",
+      "icon": "fa-user-md"
+    },
+    {
+      "title": "Students",
+      "description": "Ideal for students across various disciplines. Access educational resources, collaborate with peers, and stay informed about academic opportunities.",
+      "icon": "fa-graduation-cap"
+    },
+    {
+      "title": "Other Professionals",
+      "description": "Suitable for professionals from various fields. Enjoy tailored content, network across different industries, and access resources that cater to a broad range of interests.",
+      "icon": "fa-users"
+    }
+  ]

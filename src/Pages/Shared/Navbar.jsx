@@ -33,7 +33,7 @@ const Navbar = () => {
                 </li>
 
             </> : <>
-                <li><NavLink to="/dashboard"
+                <li><NavLink to="/dashboard/taskManager"
                     style={({ isActive }) => {
                         return {
                             color: isActive ? '#8dff0bf2' : '',

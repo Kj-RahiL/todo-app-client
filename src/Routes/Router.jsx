@@ -6,6 +6,7 @@ import Dashboard from "../Pages/Dashboard/Dashboard";
 import SignUp from "../Pages/Register/SignUp";
 import SignIn from "../Pages/Register/SignIn";
 import PrivateRoute from "./PrivateRoute";
+import TaskManager from "../Pages/Dashboard/TaskManager";
 
 const router = createBrowserRouter([
     {
@@ -33,6 +34,16 @@ const router = createBrowserRouter([
     {
         path:'/signIn',
         element:<SignIn></SignIn>
+    },
+    {
+        path:'/dashboard',
+        element:<Dashboard></Dashboard>,
+        children:[
+            {
+                path: 'taskManager',
+                element:<TaskManager></TaskManager>
+            }
+        ]
     }
 ]);
 
